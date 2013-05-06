@@ -20,7 +20,43 @@ audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 audio:not([controls]) { display: none; }
 [hidden] { display: none; }
 
+.content {
+    min-width: 20em;
+    max-width: 50em;
+    margin: 2em auto 0 auto;
+}
 
+footer {
+    height: 90px;
+    margin-top: -90px;
+    overflow: hidden;
+    position: relative;
+    background: #3e3c34;
+    color: #f0f0e4;
+    clear: both;
+    font-size: 14px;
+    height: 47px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footertext {
+    margin: 0 auto;
+    position: relative;
+}
+
+footer p {
+    height: 47px;
+    float: left;
+    line-height: 47px;
+    margin: 0;
+}
+
+.right {
+    float: right;
+}
 /* =============================================================================
    Base
    ========================================================================== */
