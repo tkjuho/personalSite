@@ -136,7 +136,7 @@ nav a:hover {
     font-size: 2em;
 }
 
-.main aside {
+.main aside, .img-container {
     color: white;
     padding: 0px 5% 10px;
 }
@@ -246,7 +246,7 @@ nav a:hover {
         width: 57%;
     }
 
-    .main aside {
+    .main aside, .img-container {
         float: right;
         width: 28%;
     }
